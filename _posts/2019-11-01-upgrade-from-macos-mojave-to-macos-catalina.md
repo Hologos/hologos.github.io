@@ -22,17 +22,16 @@ Identify disk number of your primary and secondary disk.
 
 ```bash
 diskutil list
-/dev/disk0 (internal, physical):
-   #:                       TYPE NAME                    SIZE       IDENTIFIER
-   0:      GUID_partition_scheme                        *128.0 GB   disk0
-   1:                        EFI EFI                     209.7 MB   disk0s1
-   2:                 Apple_APFS Container disk1         127.8 GB   disk0s2
 
-/dev/disk2 (internal, physical):
-   #:                       TYPE NAME                    SIZE       IDENTIFIER
-   0:      GUID_partition_scheme                        *128.0 GB   disk2
+   /dev/disk0 (internal, physical):
+      #:                       TYPE NAME                    SIZE       IDENTIFIER
+      0:      GUID_partition_scheme                        *128.0 GB   disk0
+      1:                        EFI EFI                     209.7 MB   disk0s1
+      2:                 Apple_APFS Container disk1         127.8 GB   disk0s2
 
-...
+   /dev/disk2 (internal, physical):
+      #:                       TYPE NAME                    SIZE       IDENTIFIER
+      0:      GUID_partition_scheme                        *128.0 GB   disk2
 ```
 
 Here my primary disk is `/dev/disk0` and secondary is `/dev/disk2`. We will reference these drives as `/dev/rdisk0` and `/dev/rdisk2`.

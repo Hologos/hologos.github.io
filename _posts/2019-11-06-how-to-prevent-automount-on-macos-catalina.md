@@ -12,21 +12,21 @@ First, we have to find out, what is the _Disk identifier_:
 
 ```bash
 diskutil list
-...
-/dev/disk2 (external, physical):
-   #:                       TYPE NAME                    SIZE       IDENTIFIER
-   0:      GUID_partition_scheme                        *500.1 GB   disk2
-   1:                        EFI EFI                     209.7 MB   disk2s1
-   2:          Apple_CoreStorage Time Machine            349.9 GB   disk2s2
-   3:                 Apple_Boot Boot OS X               134.2 MB   disk2s3
-   4:       Microsoft Basic Data Stash                   149.7 GB   disk2s4
-...
+
+    /dev/disk2 (external, physical):
+    #:                       TYPE NAME                    SIZE       IDENTIFIER
+    0:      GUID_partition_scheme                        *500.1 GB   disk2
+    1:                        EFI EFI                     209.7 MB   disk2s1
+    2:          Apple_CoreStorage Time Machine            349.9 GB   disk2s2
+    3:                 Apple_Boot Boot OS X               134.2 MB   disk2s3
+    4:       Microsoft Basic Data Stash                   149.7 GB   disk2s4
 ```
 
 The volume in question is called **Stash** and its _Disk identifier_ is **disk2s4**. Now we have to get the _Volume UUID_:
 
 ```bash
 diskutil info /dev/disk2s4
+
    Device Identifier:         disk2s4
    Device Node:               /dev/disk2s4
    Whole:                     No
