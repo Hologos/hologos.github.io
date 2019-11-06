@@ -21,7 +21,7 @@ On the main screen, launch Disk Utility. Format the spare hard drive to have to 
 Identify disk number of your primary and secondary disk.
 
 ```bash
-$ diskutil list
+diskutil list
 /dev/disk0 (internal, physical):
    #:                       TYPE NAME                    SIZE       IDENTIFIER
    0:      GUID_partition_scheme                        *128.0 GB   disk0

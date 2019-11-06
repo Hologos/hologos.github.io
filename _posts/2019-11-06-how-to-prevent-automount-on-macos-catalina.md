@@ -11,7 +11,7 @@ I have a hard drive dedicated for Time Machine backups and recently I decided to
 First, we have to find out, what is the _Disk identifier_:
 
 ```bash
-$ diskutil list
+diskutil list
 ...
 /dev/disk2 (external, physical):
    #:                       TYPE NAME                    SIZE       IDENTIFIER
@@ -26,7 +26,7 @@ $ diskutil list
 The volume in question is called **Stash** and its _Disk identifier_ is **disk2s4**. Now we have to get the _Volume UUID_:
 
 ```bash
-$ diskutil info /dev/disk2s4
+diskutil info /dev/disk2s4
    Device Identifier:         disk2s4
    Device Node:               /dev/disk2s4
    Whole:                     No
