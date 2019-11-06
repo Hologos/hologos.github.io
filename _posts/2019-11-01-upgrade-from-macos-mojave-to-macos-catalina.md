@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Upgrade from macOS Mojave to macOS Catalina
-categories: [ Hackintosh, HP EliteBook 840 G3 ]
+categories: [ macOS, Hackintosh, HP EliteBook 840 G3 ]
 ---
 
 This guide is meant for _HP Probook/Elitebook/Zbook_ but it can be used for all hackintoshes. The only difference is that you have to get all kexts by yourself.
