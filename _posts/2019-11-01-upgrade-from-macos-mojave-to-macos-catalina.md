@@ -56,7 +56,9 @@ Now you can start the upgrade from the Mac App Store.
 
 Install kexts from Rehabman's repo according to the [guide](https://www.tonymacx86.com/threads/guide-hp-probook-elitebook-zbook-using-clover-uefi-hotpatch.261719/) again.
 
-With my setup, my Wifi was working but the Bluetooth was not. Since Rehabman is currently not active, I had to migrate to [Mieze's BT kexts](https://github.com/Mieze/OS-X-BrcmPatchRAM-Catalina). Download latest BT kexts from thread [BrcmPatchRAM2 for 10.15 Catalina](https://www.insanelymac.com/forum/topic/339175-brcmpatchram2-for-1015-catalina-broadcom-bluetooth-firmware-upload/?page=6) (`BrcmPatchRAM3.kext`, `BrcmFirmwareRepo.kext` and `BrcmBluetoothInjector.kext`) and copy them to `/Library/Extensions` (remove old ones first).
+With my setup, my Wifi was working but the Bluetooth was not. Rehabman is currently not active so I migrated to [acidanthera's BT kexts](https://github.com/acidanthera/BrcmPatchRAM) (Mieze's patches included).
+
+If you install hackintosh by yourself, download latest BT kexts from Releases page and copy `BrcmPatchRAM3.kext`, `BrcmFirmwareData.kext` and `BrcmBluetoothInjector.kext`) to `/EFI/CLOVER/kexts/Other/`. If you prefer installing kexts to `/Library/Extensions`, copy `BrcmPatchRAM3.kext`, `BrcmFirmwareRepo.kext` and `BrcmBluetoothInjector.kext` instead. **Don't forget to remove old kexts (such as `BrcmPatchRAM2.kext`, etc).
 
 **Update:** You can use my EFI folder if you have the same model (choose the branch according to the version you are upgrading to).
 
