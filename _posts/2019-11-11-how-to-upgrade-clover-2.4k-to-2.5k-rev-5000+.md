@@ -99,6 +99,8 @@ sudo diskutil mount disk4s1
 
 It will mount the EFI partition to `/Volumes/EFI`.
 
+**Update:** I released an article dedicated to [mounting volumes using command line](/how-to-mount-efi-from-command-line-terminal).
+
 ### Moving & renaming drivers
 
 Commands below will move drivers to appropriate location and rename them. It will move only those drivers **not updated** with Clover installer.
