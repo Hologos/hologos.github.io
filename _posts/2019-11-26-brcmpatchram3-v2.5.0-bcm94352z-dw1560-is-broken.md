@@ -1,6 +1,6 @@
 ---
 layout: post
-title: BrcmPatchRAM3 v2.5.0 + BCM94352Z/DW1560 is broken
+title: BrcmPatchRAM3 v2.5.0 + BCM94352Z / DW1560 is broken
 categories: [ macOS, Hackintosh ]
 ---
 
