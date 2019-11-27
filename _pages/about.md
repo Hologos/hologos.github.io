@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-I finally decided to run a blog to share guides and workarounds for problem I come across. Currently the blog is all about Hackintosh and macOS.
+I finally decided to run a blog to share guides and workarounds for problems I come across. Currently the blog is all about Hackintosh and macOS.
 
 ## My other projects
 
