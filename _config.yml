@@ -50,7 +50,7 @@ google_adsense: ca-pub-1408588310446074
 
 # Your website URL (e.g. http://amitmerchant1990.github.io or http://www.amitmerchant.com)
 # Used for Sitemap.xml and your RSS feed
-url: http://hologos.github.io
+url: https://hologos.github.io
 enforce_ssl: https://hologos.github.io
 
 # If you're hosting your site at a Project repository on GitHub pages
