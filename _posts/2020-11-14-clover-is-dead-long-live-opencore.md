@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Clover is dead, long live OpenCore!
-categories: [ macOS, Hackintosh ]
+categories: [ macOS, Hackintosh, Clover, OpenCore ]
 ---
 
 Moving forward I will upgrade from **Clover** to **OpenCore**. It seems very well documented and there is pretty good [install guide from dortania](https://dortania.github.io/OpenCore-Install-Guide/).

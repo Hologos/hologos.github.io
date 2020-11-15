@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to upgrade Clover v2.4k to v2.5k (rev. 5000+)
-categories: [ macOS, Clover Bootloader, Hackintosh ]
+categories: [ macOS, Clover, Hackintosh ]
 ---
 
 Guys developing Clover made a change to Clover's directory structure and somehow forgot to inform people. In my opinion, mentioning it in a [forum post](https://www.insanelymac.com/forum/topic/304530-clover-change-explanations/?do=findComment&comment=2681356) is not enough.
