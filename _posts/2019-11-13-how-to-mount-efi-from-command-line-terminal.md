@@ -22,7 +22,7 @@ diskutil list
     /dev/disk1 (synthesized):
         #:                       TYPE NAME                    SIZE       IDENTIFIER
         0:      APFS Container Scheme -                      +239.8 GB   disk1
-                                        Physical Store disk0s2
+                                      Physical Store disk0s2
         1:                APFS Volume OSX                     10.9 GB    disk1s1
         2:                APFS Volume VM                      1.1 MB     disk1s2
         3:                APFS Volume OSX – data              131.9 GB   disk1s3
